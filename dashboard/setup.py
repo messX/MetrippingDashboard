@@ -6,7 +6,7 @@ requires = [
     'pyramid_debugtoolbar'
 ]
 
-setup(name='visa',
+setup(name='dashboard',
       install_requires=requires,
       entry_points="""\
         [paste.app_factory]
