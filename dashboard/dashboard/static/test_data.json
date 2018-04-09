@@ -1,0 +1,344 @@
+{
+	"schema": {
+		"fields": [
+			{
+				"name": "index",
+				"type": "string"
+			},
+			{
+				"name": "lat",
+				"type": "string"
+			},
+			{
+				"name": "lng",
+				"type": "string"
+			},
+			{
+				"name": "attr_percentage",
+				"type": "number"
+			},
+			{
+				"name": "attr_transit_percentage",
+				"type": "number"
+			},
+			{
+				"name": "intercity_percentage",
+				"type": "number"
+			},
+			{
+				"name": "transit_percentage",
+				"type": "number"
+			},
+			{
+				"name": "restr_percentage",
+				"type": "number"
+			}
+		],
+		"pandas_version": "0.20.0",
+		"primaryKey": [
+			"index"
+		]
+	},
+	"data": [
+		{
+			"index": "double_tree_hilton_sarjapur_jn",
+			"lat": 12.9191916,
+			"lng": 77.6630527,
+			"attr_percentage": 17.5,
+			"attr_transit_percentage": 15,
+			"intercity_percentage": 15,
+			"transit_percentage": 15,
+			"restr_percentage": 22.5
+		},
+		{
+			"index": "howard_johnson_hebbal",
+			"lat": 13.04466,
+			"lng": 77.6240892,
+			"attr_percentage": 20,
+			"attr_transit_percentage": 17.5,
+			"intercity_percentage": 30,
+			"transit_percentage": 20,
+			"restr_percentage": 20
+		},
+		{
+			"index": "msr_hmt_rd",
+			"lat": 13.0420045,
+			"lng": 77.552469,
+			"attr_percentage": 15,
+			"attr_transit_percentage": 20,
+			"intercity_percentage": 75,
+			"transit_percentage": 52.5,
+			"restr_percentage": 15
+		},
+		{
+			"index": "hilton_embassy_golflinks",
+			"lat": 12.948367,
+			"lng": 77.643591,
+			"attr_percentage": 30,
+			"attr_transit_percentage": 22.5,
+			"intercity_percentage": 25,
+			"transit_percentage": 22.5,
+			"restr_percentage": 35
+		},
+		{
+			"index": "vivanta_yeshwantpur",
+			"lat": 13.0291377,
+			"lng": 77.538514,
+			"attr_percentage": 22.5,
+			"attr_transit_percentage": 25,
+			"intercity_percentage": 85,
+			"transit_percentage": 87.5,
+			"restr_percentage": 17.5
+		},
+		{
+			"index": "sheraton_grand_brigade_gateway",
+			"lat": 13.0125413,
+			"lng": 77.5530827,
+			"attr_percentage": 27.5,
+			"attr_transit_percentage": 27.5,
+			"intercity_percentage": 80,
+			"transit_percentage": 47.5,
+			"restr_percentage": 25
+		},
+		{
+			"index": "grand_mercure_koramangala",
+			"lat": 12.928869,
+			"lng": 77.625228,
+			"attr_percentage": 32.5,
+			"attr_transit_percentage": 30,
+			"intercity_percentage": 20,
+			"transit_percentage": 27.5,
+			"restr_percentage": 52.5
+		},
+		{
+			"index": "davanam_sarovar_portico_hosur_rd",
+			"lat": 12.9219372,
+			"lng": 77.6186624,
+			"attr_percentage": 25,
+			"attr_transit_percentage": 32.5,
+			"intercity_percentage": 17.5,
+			"transit_percentage": 30,
+			"restr_percentage": 32.5
+		},
+		{
+			"index": "lalit_seshadripuram",
+			"lat": 12.9919749,
+			"lng": 77.579579,
+			"attr_percentage": 45,
+			"attr_transit_percentage": 35,
+			"intercity_percentage": 70,
+			"transit_percentage": 25,
+			"restr_percentage": 30
+		},
+		{
+			"index": "itc_windsor_golf_course_rd",
+			"lat": 12.9941169,
+			"lng": 77.5838101,
+			"attr_percentage": 50,
+			"attr_transit_percentage": 37.5,
+			"intercity_percentage": 77.5,
+			"transit_percentage": 17.5,
+			"restr_percentage": 45
+		},
+		{
+			"index": "shangrila_palace_rd",
+			"lat": 12.9919406,
+			"lng": 77.5861286,
+			"attr_percentage": 47.5,
+			"attr_transit_percentage": 40,
+			"intercity_percentage": 87.5,
+			"transit_percentage": 40,
+			"restr_percentage": 50
+		},
+		{
+			"index": "royal_orchid_domlur",
+			"lat": 12.9573379,
+			"lng": 77.6418416,
+			"attr_percentage": 35,
+			"attr_transit_percentage": 42.5,
+			"intercity_percentage": 27.5,
+			"transit_percentage": 72.5,
+			"restr_percentage": 37.5
+		},
+		{
+			"index": "sterlings_mac_hal_airport_rd",
+			"lat": 12.9592188,
+			"lng": 77.646392,
+			"attr_percentage": 42.5,
+			"attr_transit_percentage": 45,
+			"intercity_percentage": 32.5,
+			"transit_percentage": 67.5,
+			"restr_percentage": 42.5
+		},
+		{
+			"index": "lemeridien_sankey_rd",
+			"lat": 12.9902473,
+			"lng": 77.586159,
+			"attr_percentage": 65,
+			"attr_transit_percentage": 47.5,
+			"intercity_percentage": 82.5,
+			"transit_percentage": 32.5,
+			"restr_percentage": 47.5
+		},
+		{
+			"index": "leela_palace",
+			"lat": 12.9607504,
+			"lng": 77.6461653,
+			"attr_percentage": 40,
+			"attr_transit_percentage": 50,
+			"intercity_percentage": 37.5,
+			"transit_percentage": 70,
+			"restr_percentage": 40
+		},
+		{
+			"index": "la_marvella_jayanagar",
+			"lat": 12.9369718,
+			"lng": 77.5783311,
+			"attr_percentage": 37.5,
+			"attr_transit_percentage": 52.5,
+			"intercity_percentage": 22.5,
+			"transit_percentage": 50,
+			"restr_percentage": 27.5
+		},
+		{
+			"index": "park_mg_rd",
+			"lat": 12.9739662,
+			"lng": 77.6174316,
+			"attr_percentage": 57.5,
+			"attr_transit_percentage": 55,
+			"intercity_percentage": 60,
+			"transit_percentage": 35,
+			"restr_percentage": 72.5
+		},
+		{
+			"index": "welcom_richmond_rd",
+			"lat": 12.9688121,
+			"lng": 77.6122831,
+			"attr_percentage": 80,
+			"attr_transit_percentage": 57.5,
+			"intercity_percentage": 50,
+			"transit_percentage": 65,
+			"restr_percentage": 70
+		},
+		{
+			"index": "ritz_carlton_residency_rd",
+			"lat": 12.9680189,
+			"lng": 77.5992121,
+			"attr_percentage": 55,
+			"attr_transit_percentage": 60,
+			"intercity_percentage": 35,
+			"transit_percentage": 42.5,
+			"restr_percentage": 82.5
+		},
+		{
+			"index": "the_oberoi_mg_rd",
+			"lat": 12.9733044,
+			"lng": 77.6158465,
+			"attr_percentage": 62.5,
+			"attr_transit_percentage": 62.5,
+			"intercity_percentage": 62.5,
+			"transit_percentage": 60,
+			"restr_percentage": 77.5
+		},
+		{
+			"index": "itc_gardenia_residency_rd",
+			"lat": 12.966899,
+			"lng": 77.593558,
+			"attr_percentage": 67.5,
+			"attr_transit_percentage": 65,
+			"intercity_percentage": 52.5,
+			"transit_percentage": 82.5,
+			"restr_percentage": 57.5
+		},
+		{
+			"index": "royal_orchid_dickenson_road",
+			"lat": 12.9752141,
+			"lng": 77.6125718,
+			"attr_percentage": 75,
+			"attr_transit_percentage": 67.5,
+			"intercity_percentage": 65,
+			"transit_percentage": 80,
+			"restr_percentage": 62.5
+		},
+		{
+			"index": "vivanta_mg_rd",
+			"lat": 12.9732385,
+			"lng": 77.6176871,
+			"attr_percentage": 72.5,
+			"attr_transit_percentage": 70,
+			"intercity_percentage": 67.5,
+			"transit_percentage": 62.5,
+			"restr_percentage": 75
+		},
+		{
+			"index": "hyatt_mg_rd",
+			"lat": 12.9735588,
+			"lng": 77.6195762,
+			"attr_percentage": 52.5,
+			"attr_transit_percentage": 72.5,
+			"intercity_percentage": 72.5,
+			"transit_percentage": 85,
+			"restr_percentage": 55
+		},
+		{
+			"index": "chancery_pavilion_residency_rd",
+			"lat": 12.9660286,
+			"lng": 77.5963277,
+			"attr_percentage": 60,
+			"attr_transit_percentage": 75,
+			"intercity_percentage": 40,
+			"transit_percentage": 37.5,
+			"restr_percentage": 80
+		},
+		{
+			"index": "pride_hotel_richmond_rd",
+			"lat": 12.964765,
+			"lng": 77.5974397,
+			"attr_percentage": 70,
+			"attr_transit_percentage": 77.5,
+			"intercity_percentage": 47.5,
+			"transit_percentage": 45,
+			"restr_percentage": 60
+		},
+		{
+			"index": "iris_brigade_rd",
+			"lat": 12.9707448,
+			"lng": 77.6058718,
+			"attr_percentage": 77.5,
+			"attr_transit_percentage": 80,
+			"intercity_percentage": 42.5,
+			"transit_percentage": 77.5,
+			"restr_percentage": 87.5
+		},
+		{
+			"index": "oakwood_ub_city",
+			"lat": 12.971779,
+			"lng": 77.592616,
+			"attr_percentage": 85,
+			"attr_transit_percentage": 82.5,
+			"intercity_percentage": 55,
+			"transit_percentage": 57.5,
+			"restr_percentage": 67.5
+		},
+		{
+			"index": "jw_marriott_vittal_mallya_rd",
+			"lat": 12.972006,
+			"lng": 77.592677,
+			"attr_percentage": 87.5,
+			"attr_transit_percentage": 85,
+			"intercity_percentage": 57.5,
+			"transit_percentage": 55,
+			"restr_percentage": 65
+		},
+		{
+			"index": "gateway_residency_rd",
+			"lat": 12.972332,
+			"lng": 77.606515,
+			"attr_percentage": 82.5,
+			"attr_transit_percentage": 87.5,
+			"intercity_percentage": 45,
+			"transit_percentage": 75,
+			"restr_percentage": 85
+		}
+	]
+}

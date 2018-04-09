@@ -17,6 +17,7 @@ def main(_, **settings):
     config.include('pyramid_jinja2')
     config.add_static_view(name='static', path='./static')
     config.add_route('cluster_map', '/cluster/map')
+    config.add_route('experience', '/experience')
     config.scan('.views')
 
     return config.make_wsgi_app()
