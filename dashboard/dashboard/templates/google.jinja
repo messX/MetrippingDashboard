@@ -13,6 +13,9 @@
     ng-options="item for item in geoHashes"
     ng-change="clickOptionFun(selected)">
     </select>
+    &nbsp;
+    <input type="text" ng-model="inputId" />
+    <button ng-click="showOnlyId()">Search cluster</button>
   </div>
   <div id="map" style="height:600px;width:100%;margin:auto">
 
@@ -114,7 +117,22 @@
       }
     }
 
-
+    $scope.showOnlyId = function(){
+      var inputId = $scope.inputId;
+      console.log("id is -->", $scope.inputId);
+      var res = [];
+      _.each(result, function(dt){
+        if(dt['parent_id'] == inputId){
+          res.push(dt)
+        }
+      })
+      if(res.length > 0)
+        $scope.iniBasic(res);
+      else{
+        alert("invalid id ... ")
+      }
+      $scope.inputId = null;
+    }
 
     $scope.geoHashes = []
     $scope.getGeoHashList = function(){
@@ -128,6 +146,14 @@
 
     $scope.clickOptionFun = function(index){
       $scope.initByHash(index)
+    }
+
+    $scope.iniBasic = function(res){
+      removeMarker()
+      _.each(res, function(data){
+        addPinToMap(data, map)
+      })
+      map.fitBounds(markerBounds)
     }
 
     $scope.initByHash = function(hsh){
@@ -149,7 +175,7 @@
       if(!$scope.$$phase)
          $scope.$apply();
     }
-    $.get('/static/cluster-plots.json', handleData)
+    $.get('/static/cluster-plots-all.json', handleData)
     //var allData = {"json":[{"index": "Kentisbeare", "parent_id": 1498296, "primary_id": 1498296, "lat": "-3.32502", "lng": "50.86515"}, {"index": "Sampford Peverell", "parent_id": 1498296, "primary_id": 8273, "lat": "-3.38081", "lng": "50.91945"}, {"index": "Nerokhori|Nerokhorion|Nerochori", "parent_id": 1523720, "primary_id": 1523720, "lat": "24.13712", "lng": "35.40153"}, {"index": "Duga Resa|Duga Rosa", "parent_id": 1473979, "primary_id": 1473979, "lat": "15.48833", "lng": "45.42861"}, {"index": "Pointe d'Esny", "parent_id": 2239, "primary_id": 1506562, "lat": "57.72693", "lng": "-20.43035"}, {"index": "Poste Lafayette", "parent_id": 2239, "primary_id": 1508108, "lat": "57.75212", "lng": "-20.13823"}, {"index": "Mahebourg", "parent_id": 2239, "primary_id": 146576, "lat": "57.7", "lng": "-20.40806"}, {"index": "Chemin Grenier", "parent_id": 2239, "primary_id": 146578, "lat": "57.46556", "lng": "-20.48722"}]}
     //handleData(allData)
   }]);
