@@ -10,11 +10,11 @@
   <div ng-show="markerData" style="padding:10px;position:absolute;height:400px;width:400px;z-index:10000;right:10px;background:#fff">
     <h1>Experience Score</h1>
     <p>{{markerData.index}}</p>
-    <p>attr_percentage: {{markerData.attr_percentage}}</p>
-    <p>attr_transit_percentage: {{markerData.attr_transit_percentage}}</p>
-    <p>intercity_percentage: {{markerData.intercity_percentage}}</p>
-    <p>transit_percentage: {{markerData.transit_percentage}}</p>
-    <p>restr_percentage: {{markerData.restr_percentage}}</p>
+    <p>Attractions: {{markerData.Attractions}}</p>
+    <p>Getting In/Out: {{markerData['Getting In/Out']}}</p>
+    <p>Public Transportation: {{markerData['Public Transportation']}}</p>
+    <p>Restaurants: {{markerData['Restaurants']}}</p>
+    <p>Shopping: {{markerData.Shopping}}</p>
   </div>
   <div id="map" style="height:600px;width:100%;margin:auto">
   </div>
