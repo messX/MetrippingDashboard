@@ -9,12 +9,12 @@
 <div style="position:relative" ng-app="testApp" ng-controller="dataCtrl">
   <div ng-show="markerData" style="padding:10px;position:absolute;height:400px;width:400px;z-index:10000;right:10px;background:#fff">
     <h1>Experience Score</h1>
-    <p>{{markerData.index}}</p>
-    <p>Attractions: {{markerData.Attractions}}</p>
-    <p>Getting In/Out: {{markerData['Getting In/Out']}}</p>
-    <p>Public Transportation: {{markerData['Public Transportation']}}</p>
-    <p>Restaurants: {{markerData['Restaurants']}}</p>
-    <p>Shopping: {{markerData.Shopping}}</p>
+    <p>{{markerData.name}}</p>
+    <p>Attractions: {{markerData.Attractions}} | {{markerData['Attractions Percentile']}}</p>
+    <p>Getting In/Out: {{markerData['Getting In/Out']}} | {{markerData['Getting Percentile']}}</p>
+    <p>Public Transportation: {{markerData['Public Transportation']}} | {{markerData['Public Transportation Percentile']}}</p>
+    <p>Restaurants: {{markerData['Restaurants']}} | {{markerData['Restaurants Percentile']}} </p>
+    <p>Shopping: {{markerData.Shopping}} | {{markerData['Shopping Percentile']}}</p>
   </div>
   <div id="map" style="height:600px;width:100%;margin:auto">
   </div>
