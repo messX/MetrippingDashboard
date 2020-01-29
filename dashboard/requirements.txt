@@ -1,0 +1,49 @@
+
+#default
+setuptools==40.3.0
+
+# AWS
+#awscli==1.11.149
+#boto==2.48.0
+#boto3==1.4.7
+#botocore==1.7.7
+#s3transfer==0.1.11
+
+# HTML/XML Parser
+beautifulsoup4==4.6.0
+bs4==0.0.1
+lxml==3.8.0
+Chameleon==2.24
+cssselect==1.0.1
+MarkupSafe==1.0
+
+# Celery
+amqp==2.2.2
+billiard==3.5.0.3
+celery==4.1.0
+kombu==4.1.0
+
+# Django app server
+Django==1.9.5
+Jinja2==2.9.6
+
+# Pyramid and glue
+pyramid==1.10.4
+pyramid-chameleon==0.3
+pyramid-debugtoolbar==2.4.2
+pyramid-jinja2==2.7
+pyramid-mako==1.0.2
+pyramid_redis_sessions==1.0.1
+venusian==1.2.0
+
+PyYAML==3.12
+pathtools==0.1.2
+#requests==2.18.4
+requests_oauthlib==0.8.0
+WebOb==1.8.3
+w3lib==1.18.0
+jsonpatch==1.14
+jmespath==0.9.0
+jsonschema==2.6.0
+psutil==5.3.1
+
