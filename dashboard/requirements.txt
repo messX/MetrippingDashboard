@@ -24,7 +24,7 @@ celery==4.1.0
 kombu==4.1.0
 
 # Django app server
-Django==1.9.5
+Django==1.11.29
 Jinja2==2.9.6
 
 # Pyramid and glue
