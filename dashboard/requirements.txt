@@ -25,7 +25,7 @@ kombu==4.1.0
 
 # Django app server
 Django==1.9.5
-Jinja2==2.9.6
+Jinja2==2.11.3
 
 # Pyramid and glue
 pyramid==1.10.4
