@@ -1,6 +1,6 @@
 
 #default
-setuptools==40.3.0
+setuptools==65.5.1
 
 # AWS
 #awscli==1.11.149
